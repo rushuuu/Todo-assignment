@@ -20,6 +20,7 @@ A simple task management system that allows users to add, update, view, and dele
 ### Prerequisites
 Ensure that you have Python 3.7 or higher installed.
 Pytest for unit testing.
+Black for code formatting.
 
 ## Github Copilot
 

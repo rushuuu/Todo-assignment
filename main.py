@@ -1,5 +1,6 @@
 from src.todo_manager import ToDoListManager
 
+
 def main():
     manager = ToDoListManager()
 
@@ -24,7 +25,7 @@ def main():
 
     print("\nListing pending tasks:")
     for task in manager.list_tasks(filter_by="pending"):
-        print(task)    
+        print(task)
 
     print("\nDeleting third task...")
     manager.delete_task(task3.id)

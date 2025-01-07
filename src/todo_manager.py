@@ -1,11 +1,12 @@
 from typing import List, Optional
 
+
 class Task:
-    id_counter = 1  
+    id_counter = 1
 
     def __init__(self, description: str, due_date: str):
         self.id = Task.id_counter
-        Task.id_counter += 1  
+        Task.id_counter += 1
         self.description = description
         self.due_date = due_date
         self.completed = False
