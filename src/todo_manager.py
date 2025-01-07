@@ -12,3 +12,7 @@ class Task:
 
     def __repr__(self):
         return f"Task(id={self.id}, description={self.description}, due_date={self.due_date}, completed={self.completed})"
+
+class ToDoListManager:
+    def __init__(self):
+        self.tasks = {}
