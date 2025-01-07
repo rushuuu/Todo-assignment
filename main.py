@@ -19,11 +19,11 @@ def main():
     manager.mark_task_complete(task1.id)
 
     print("\nListing completed tasks:")
-    for task in manager.list_tasks(completed=True):
+    for task in manager.list_tasks(filter_by="completed"):
         print(task)
 
     print("\nListing pending tasks:")
-    for task in manager.list_tasks(completed=False):
+    for task in manager.list_tasks(filter_by="pending"):
         print(task)    
 
     print("\nDeleting third task...")
